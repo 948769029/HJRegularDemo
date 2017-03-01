@@ -15,6 +15,8 @@
 		1835846A1E667179006ACFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183584681E667179006ACFA0 /* LaunchScreen.storyboard */; };
 		183584751E667179006ACFA0 /* HJRegularDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183584741E667179006ACFA0 /* HJRegularDemoTests.m */; };
 		183584801E667179006ACFA0 /* HJRegularDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835847F1E667179006ACFA0 /* HJRegularDemoUITests.m */; };
+		1835848F1E6671C4006ACFA0 /* HJRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835848E1E6671C4006ACFA0 /* HJRegular.m */; };
+		183584921E66742B006ACFA0 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183584911E66742B006ACFA0 /* NSString+RegexCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1835847B1E667179006ACFA0 /* HJRegularDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJRegularDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835847F1E667179006ACFA0 /* HJRegularDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRegularDemoUITests.m; sourceTree = "<group>"; };
 		183584811E667179006ACFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1835848D1E6671C4006ACFA0 /* HJRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRegular.h; sourceTree = "<group>"; };
+		1835848E1E6671C4006ACFA0 /* HJRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRegular.m; sourceTree = "<group>"; };
+		183584901E66742B006ACFA0 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		183584911E66742B006ACFA0 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1835845E1E667178006ACFA0 /* AppDelegate.m */,
 				183584601E667178006ACFA0 /* ViewController.h */,
 				183584611E667178006ACFA0 /* ViewController.m */,
+				1835848D1E6671C4006ACFA0 /* HJRegular.h */,
+				1835848E1E6671C4006ACFA0 /* HJRegular.m */,
+				183584901E66742B006ACFA0 /* NSString+RegexCategory.h */,
+				183584911E66742B006ACFA0 /* NSString+RegexCategory.m */,
 				183584631E667178006ACFA0 /* Main.storyboard */,
 				183584661E667179006ACFA0 /* Assets.xcassets */,
 				183584681E667179006ACFA0 /* LaunchScreen.storyboard */,
@@ -275,7 +285,9 @@
 			files = (
 				183584621E667178006ACFA0 /* ViewController.m in Sources */,
 				1835845F1E667178006ACFA0 /* AppDelegate.m in Sources */,
+				1835848F1E6671C4006ACFA0 /* HJRegular.m in Sources */,
 				1835845C1E667178006ACFA0 /* main.m in Sources */,
+				183584921E66742B006ACFA0 /* NSString+RegexCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
